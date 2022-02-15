@@ -4,9 +4,10 @@ PIXELA API
 
 
 import requests
+import os
 from datetime import datetime
 
-TOKEN = "iodfgaisopjgiodsfgj"
+TOKEN = os.environ.get("TOKEN")
 USERNAME = "olegdavimuka"
 GRAPH_ID = "graph1"
 
